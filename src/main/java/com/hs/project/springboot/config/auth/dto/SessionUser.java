@@ -1,9 +1,11 @@
 package com.hs.project.springboot.config.auth.dto;
 
 import com.hs.project.springboot.domain.user.User;
+import lombok.Getter;
 
 import java.io.Serializable;
 
+@Getter
 public class SessionUser implements Serializable {
     private String name;
     private String email;
